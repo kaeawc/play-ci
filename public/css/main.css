@@ -1,0 +1,60 @@
+
+a.navbar-brand img {
+  height: 50px;
+  width: auto;
+}
+
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  color: #74e685;
+  text-decoration: none;
+
+  -webkit-transition: 0.15s color ease;
+     -moz-transition: 0.15s color ease;
+      -ms-transition: 0.15s color ease;
+       -o-transition: 0.15s color ease;
+          transition: 0.15s color ease;
+}
+a:hover {
+  color: #d3f3d7;
+}
+
+article {
+  display: inline-block;
+  margin: 20px;
+  width: 480px;
+}
+
+h1, h2 {
+  font-size: 24px;
+  display: inline-block;
+}
+
+h2 {
+  color: #ccc;
+}
+
+p {
+  margin: 10px 0 10px 0;
+  font-size: 15px;
+}
+
+small {
+  display: block;
+  margin: 10px 0 20px 0;
+  color: #bbb;
+}
+
+del {
+  opacity: 0.3;
+}
+
+.sharing {
+  position: absolute;
+  bottom: 16px;
+  left: 20px;
+}
