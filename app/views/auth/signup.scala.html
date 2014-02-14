@@ -1,0 +1,15 @@
+@(signup: Form[forms.Signup],user:Option[User] = None)
+
+@main("signup",user) {
+  <div class="container">This is a signup form.</div>
+  <div class="container">
+
+    @helper.form(action = controllers.auth.routes.Signup.submit()) {
+      @form.email("email",signup("email").value,signup.errors("email"))
+      @form.password("password",signup.errors("password"))
+      @form.password("retyped",signup.errors("retyped"))
+      <input type="submit" value="Submit" />
+    }
+
+  </div>
+}
